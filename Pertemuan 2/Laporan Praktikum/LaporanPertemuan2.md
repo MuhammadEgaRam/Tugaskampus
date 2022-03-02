@@ -17,7 +17,7 @@ Waktu : 45 Menit
 
 Perhatikan Diagram Class berikut ini:
 
-<img src = "Images/1.PNG">
+<img src = "Images/1.png">
 
 Berdasarkan diagram class di atas, akan dibuat program class dalam Java.
 
