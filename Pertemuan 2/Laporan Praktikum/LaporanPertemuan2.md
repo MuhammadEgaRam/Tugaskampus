@@ -339,18 +339,19 @@ barangDiskon ds = new barangDiskon();
 ```
 2. Buat program berdasarkan diagram class berikut ini!
 <img src = "Images/11.png">
+
 - Atribut x digunakan untuk menyimpan posisi koordinat x (mendatar) dari pacman, sedangkan
-atribut y untuk posisi koordinat y (vertikal)
+atribut y untuk posisi koordinat y (vertikal) <p>
 - Atribut width digunakan untuk menyimpan lebar dari area permainan, sedangkan height
-untuk menyimpan panjang area
+untuk menyimpan panjang area <p>
 - Method moveLeft() digunakan untuk mengubah posisi pacman ke kiri (koordinat x akan
 berkurang 1), sedangkan moveRight() untuk bergerak ke kanan (koordinat x akan bertambah
 1). Perlu diperhatikan bahwa koordinat x tidak boleh lebih kecil dari 0 atau lebih besar dari
-nilai width
+nilai width <p>
 - Method moveUp() digunakan untuk mengubah posisi pacman ke atas (koordinat y akan
 berkurang 1), sedangkan moveDown() untuk bergerak ke bawah (koordinat y akan bertambah
 1). Perlu diperhatikan bahwa koordinat y tidak boleh lebih kecil dari 0 atau lebih besar dari
-nilai height
+nilai height <p>
 
 >Hasil output : <p>
 >Titik awal PacMan :
