@@ -1,6 +1,13 @@
 ## **Jobsheet Pertemuan 2**
-# Muhammad Ega Rama Fernanda
-# 1F/19
+
+><p>Nama : Muhammad Ega Rama Fernanda<p>
+>Kelas : 1F<p>
+>Nomer Absen : 19<p>
+>Prodi : D-IV Teknik Inormatika<p>
+>Jurusan : Teknologi Inormasi<p>
+><center> Politeknik Negri Malang</center>
+
+<br>
 
 
 ### 2.1 Tujuan Praktikum
