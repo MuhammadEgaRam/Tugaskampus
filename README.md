@@ -12,3 +12,5 @@
 
 Tools yang saya gunakan
 - Vscode
+- Neatbeans 12
+- JDK 11
