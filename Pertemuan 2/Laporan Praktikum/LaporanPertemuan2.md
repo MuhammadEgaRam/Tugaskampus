@@ -27,11 +27,11 @@ Berdasarkan diagram class di atas, akan dibuat program class dalam Java.
 baru dengan nama Barang.
 2. Lengkapi class Barang dengan atribut dan method yang telah digambarkan di dalam diagram
 class di atas, sebagai berikut:
-<img src = "Images/2.PNG">
+<img src = "Images/2.png">
 3. Coba jalankan (Run) class Barang tersebut. Apakah bisa? **tidak bisa**
 
 >Hasil output :
-<img src = "Images/coba1.PNG">
+<img src = "Images/coba1.png">
 
 >Code
 ``` java
@@ -60,7 +60,7 @@ public class Barang {
 
 ### 2.2.2 Verifikasi Hasil Percobaan
 Cocokkan hasil compile kode program anda dengan gambar berikut ini.
-<img src = "Images/3.PNG">
+<img src = "Images/3.png">
 
 
 ### 2.2.3 Pertanyaan
@@ -106,10 +106,10 @@ yang ada di dalamnya, maka selanjutnya perlu dibuat objek/instance dari class Ba
 BarangMain tersebut, buatlah method main().
 2. Di dalam method main(), lakukan instansiasi, dan kemudian lanjutkan dengan mengakses atribut
 dan method dari objek yang telah terbentuk.
-<img src = "Images/4.PNG">
+<img src = "Images/4.png">
 3. Jalankan (Run) class BarangMain tersebut dan amati hasilnya.
 >Hasil output :
-<img src = "Images/coba2.PNG">
+<img src = "Images/coba2.png">
 
 >Code
 ```java
@@ -132,7 +132,7 @@ public class BarangMain {
 
 ### 2.3.2 Verifikasi Hasil Percobaan
 Cocokkan hasil compile kode program anda dengan gambar berikut ini.
-<img src = "Images/5.PNG">
+<img src = "Images/5.png">
 
 
 ### 2.3.3 Pertanyaan
@@ -161,13 +161,13 @@ konstruktor berdasarkan parameternya.
 ### 2.4.1 Langkah-langkah Percobaan
 1. Perhatikan kembali class Barang. Tambahkan di dalam class Barang tersebut 2 buah
 konstruktor. 1 konstruktor default dan 1 konstruktor berparameter.
-<img src = "Images/6.PNG">
+<img src = "Images/6.png">
 2. Buka kembali class BarangMain. Dan buat sebuah objek lagi, kali ini dengan menggunakan
 konstruktor berparameter.
-<img src = "Images/7.PNG">
+<img src = "Images/7.png">
 3. Jalankan kembali class BarangMain dan amati hasilnya.
 >Hasil output :
-<img src = "Images/coba3.PNG">
+<img src = "Images/coba3.png">
 
 >Code Barang
 ```java
@@ -224,7 +224,7 @@ public class BarangMain {
 
 ### 2.4.2 Verifikasi Hasil Percobaan
 Cocokkan hasil compile kode program anda dengan gambar berikut ini.
-<img src = "Images/8.PNG">
+<img src = "Images/8.png">
 
 
 2.4.3 Pertanyaan
@@ -234,13 +234,13 @@ konstruktor berparameter dilakukan?
     **pada baris ke 18**
 2. Perhatikan class BarangMain di Praktikum 2.4.1, apa sebenarnya yang dilakukan pada baris
 program dibawah ini?
-<img src = "Images/9.PNG">
+<img src = "Images/9.png">
 
     **baris code tersebut berguna untuk menyiapkan barang ke 2 yang ingin di masukkan lalu nanti ditampilkannya dengan menggunakan code b2.tampilBarang().**
 3. Coba buat objek dengan nama b3 dengan menggunakan konstruktor berparameter dari class
 Barang.
 >Hasil output
-<img src = "Images/coba4.PNG">
+<img src = "Images/coba4.png">
 
 >Code
 ```java
@@ -268,7 +268,7 @@ public class BarangMain {
 ### 2.5 Latihan Praktikum
 Waktu : 60 Menit
 1. Buat program berdasarkan diagram class berikut ini!
-<img src = "Images/10.PNG">
+<img src = "Images/10.png">
 
 - Method hitungHargaTotal() digunakan untuk menghitung harga total yang merupakan
 perkalian antara hargaSatuan dengan jumlah barang yang dibeli
@@ -279,7 +279,7 @@ perkalian antara hargaSatuan dengan jumlah barang yang dibeli
 - Method hitungHargaBayar() digunakan untuk menghitung harga total setelah dikurangi
 diskon
 >Hasil output
-<img src = "Images/coba5.PNG">
+<img src = "Images/coba5.png">
 
 >Code Java
 ```java
@@ -338,7 +338,7 @@ barangDiskon ds = new barangDiskon();
 }
 ```
 2. Buat program berdasarkan diagram class berikut ini!
-<img src = "Images/11.PNG">
+<img src = "Images/11.png">
 - Atribut x digunakan untuk menyimpan posisi koordinat x (mendatar) dari pacman, sedangkan
 atribut y untuk posisi koordinat y (vertikal)
 - Atribut width digunakan untuk menyimpan lebar dari area permainan, sedangkan height
@@ -354,17 +354,17 @@ nilai height
 
 >Hasil output : <p>
 >Titik awal PacMan :
->><img src = "Images/coba6.PNG">
+>><img src = "Images/coba6.png">
 >Perubahan posisi ketika menekan "d" menuju ke arah kanan
->><img src = "Images/coba7.PNG">
+>><img src = "Images/coba7.png">
 >Perubahan posisi ketika menekan "s" menuju ke arah bawah
->><img src = "Images/coba8.PNG">
+>><img src = "Images/coba8.png">
 >Perubahan posisi ketika menekan "a" menuju ke arah kiri
->><img src = "Images/coba9.PNG">
+>><img src = "Images/coba9.png">
 >Perubahan posisi ketika menekan "w" menuju ke arah keatas
->><img src = "Images/coba10.PNG">
+>><img src = "Images/coba10.png">
 >Perubahan posisi ketika mengetik "keluar" maka game akan berakhir
->><img src = "Images/coba11.PNG">
+>><img src = "Images/coba11.png">
 
 >Source code Java
 ``` java
