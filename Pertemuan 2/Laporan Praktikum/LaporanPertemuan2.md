@@ -236,7 +236,7 @@ konstruktor berparameter dilakukan?
 program dibawah ini?
 <img src = "Images/9.png">
 
-    **baris code tersebut berguna untuk menyiapkan barang ke 2 yang ingin di masukkan lalu nanti ditampilkannya dengan menggunakan code b2.tampilBarang().**
+**baris code tersebut berguna untuk menyiapkan barang ke 2 yang ingin di masukkan lalu nanti ditampilkannya dengan menggunakan code b2.tampilBarang().**
 3. Coba buat objek dengan nama b3 dengan menggunakan konstruktor berparameter dari class
 Barang.
 >Hasil output
