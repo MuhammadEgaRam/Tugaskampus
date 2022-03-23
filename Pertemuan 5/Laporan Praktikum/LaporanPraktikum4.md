@@ -139,9 +139,9 @@ divide, conquer, combine? Jelaskan masing-masing bagiannya pada kode program!
 for?Buktikan!
 
     **Bisa, selama termasuk looping maka jenis looping apapun bisa digunakan pada method faktorialBF() dan saya sudah mencoba membuktikannya dengan looping jenis while dan program tetap berjalan dengan baik.**
->Codingan :
+>Codingan :<p>
     <img src = "Images/coba4.png">
->Output :
+>Output :<p>
     <img src = "Images/coba5.png">
 
 4. Tambahkan pegecekan waktu eksekusi kedua jenis method tersebut!
