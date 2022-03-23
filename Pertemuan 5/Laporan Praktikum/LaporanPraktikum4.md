@@ -832,4 +832,4 @@ public class LatihanMain {
 ```
 
 >Hasil Output :
-"Images/coba14.png">
+<img src = "Images/coba14.png">
