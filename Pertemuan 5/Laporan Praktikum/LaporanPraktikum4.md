@@ -145,15 +145,15 @@ for?Buktikan!
     <img src = "Images/coba5.png"><p>
 
 4. Tambahkan pegecekan waktu eksekusi kedua jenis method tersebut!
->Menambah kan codingan untuk Waktu Awal di FaktorialMain :
+>Menambah kan codingan untuk Waktu Awal di FaktorialMain :<p>
     <img src = "Images/coba7.png"><p>
 >Menambah kan codingan untuk Waktu Akhir dan eksekusi di FaktorialMain :
     <img src = "Images/coba8.png"><p>
->Hasil Output :
+>Hasil Output :<p>
     <img src = "Images/coba6.png"><p>
 5. Buktikan dengan inputan elemen yang di atas 20 angka, apakah ada perbedaan waktu eksekusi?
->Hasil Output :
-    <img src = "Images/coba9.png">
+>Hasil Output :<p>
+    <img src = "Images/coba9.png"><p>
     **Ada perbedaan waktu eksekusi yang sangat terlihat pada program dimana pada elemen yang berjumlah 3 waktu eksekusi yang diperlukan lebih sedikit daripada waktu eksekusi yang dibutuhkan oleh elemen yang berjumlah diatas 20 angka, untuk buktinya bisa anda lihat pada output program di atas.**
 
 ---
