@@ -146,11 +146,11 @@ for?Buktikan!
 
 4. Tambahkan pegecekan waktu eksekusi kedua jenis method tersebut!
 >Menambah kan codingan untuk Waktu Awal di FaktorialMain :
-    <img src = "Images/coba7.png">
+    <img src = "Images/coba7.png"><p>
 >Menambah kan codingan untuk Waktu Akhir dan eksekusi di FaktorialMain :
-    <img src = "Images/coba8.png">
+    <img src = "Images/coba8.png"><p>
 >Hasil Output :
-    <img src = "Images/coba6.png">
+    <img src = "Images/coba6.png"><p>
 5. Buktikan dengan inputan elemen yang di atas 20 angka, apakah ada perbedaan waktu eksekusi?
 >Hasil Output :
     <img src = "Images/coba9.png">
