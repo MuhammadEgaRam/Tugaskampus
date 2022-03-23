@@ -17,15 +17,15 @@ Setelah melakukan materi praktikum ini, mahasiswa mampu:
 ---
 ### 4.2 Menghitung Nilai Faktorial dengan Algoritma Brute Force dan Divide and Conquer
 Perhatikan Diagram Class berikut ini :
-<img src = "Images/1.png">
+<img src = "Images/1.png"><p>
 Berdasarkan diagram class di atas, akan dibuat program class dalam Java. Untuk menghitung nilai
 faktorial suatu angka menggunakan 2 jenis algoritma, Brute Force dan Divide and Conquer. Jika
 digambarkan terdapat perbedaan proses perhitungan 2 jenis algoritma tersebut sebagai berikut :
 
 Tahapan pencarian nilai faktorial dengan algoritma Brute Force :
-<img src = "Images/2.png">
+<img src = "Images/2.png"><p>
 Tahapan pencarian nilai faktorial dengan algoritma Divide and Conquer :
-<img src = "Images/3.png">
+<img src = "Images/3.png"><p>
 
 ---
 #### 4.2.1 Langkah-langkah Percobaan
