@@ -140,9 +140,9 @@ for?Buktikan!
 
     **Bisa, selama termasuk looping maka jenis looping apapun bisa digunakan pada method faktorialBF() dan saya sudah mencoba membuktikannya dengan looping jenis while dan program tetap berjalan dengan baik.**
 >Codingan :<p>
-    <img src = "Images/coba4.png">
+    <img src = "Images/coba4.png"><p>
 >Output :<p>
-    <img src = "Images/coba5.png">
+    <img src = "Images/coba5.png"><p>
 
 4. Tambahkan pegecekan waktu eksekusi kedua jenis method tersebut!
 >Menambah kan codingan untuk Waktu Awal di FaktorialMain :
