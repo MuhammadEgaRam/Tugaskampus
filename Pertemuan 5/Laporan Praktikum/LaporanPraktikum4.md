@@ -274,7 +274,7 @@ setiap beberapa masalah yang tercantum pada else dan terakhir ada combine => men
 <img src = "Images/18.png">
 Jelaskan arti potongan kode tersebut
 
-    **Arti dari program tersebut adalah**
+**Arti dari program tersebut adalah**
 - **Jika n (pangkat bilangan) dimodulus 2 hasilnya adalah 1 maka returnnya (kembalian nilai) 
 adalah hasil dari (pangkatDC(a,n/2) x pangkatDC(a, n/2) x a) karena bilangan pangkatnya adalah 
 ganjil**
