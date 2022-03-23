@@ -738,3 +738,98 @@ dari (7/2)+1 atau (6/2)+1).**
 Karena n = 8, nilai mayoritas paling sedikit sejumlah 5 (8/2+1)
 Keterangan : Warna Biru adalah proses divide, warna kuning dimulainya proses conquer, warna
 hijau dimulainya proses combine
+    
+ >Source Code LatihanClass :
+ ```java
+ package Minggu5.Praktikum;
+/**
+ *
+ * @author EgaRam
+ */
+public class Latihan {
+    public int vote, jumlahVote, jumlahKandidat = 4;
+    public String kandidat;
+    public int nilai, acc, control = 0;
+    public int[] array = new int[10000];
+
+    public int hitungHasil(int js, int k1, int k2, int k3, int k4){
+        if(nilai == 5){
+            nilai = 1;
+        }
+        if (nilai == 1 && k1 > 0){
+            array[control] = nilai;
+            control++;
+            nilai++;
+            return hitungHasil(js, k1 - 1, k2, k3, k4);
+        }else if (nilai == 2 && k2 > 0){
+            array[control] = nilai;
+            control++;
+            nilai++;
+            return hitungHasil(js, k1, k2 - 1, k3, k4);
+        }else if (nilai == 3 && k3 > 0){
+            array[control] = nilai;
+            control++;
+            nilai++;
+            return hitungHasil(js, k1, k2, k3 - 1, k4);
+        }else if (nilai == 4 && k4 > 0){
+            array[control] = nilai;
+            control++;
+            nilai++;
+            return hitungHasil(js, k1, k2, k3, k4 - 1);
+        }else if (k1 == 0 && k2 == 0 && k3 == 0 && k4 == 0){
+            if (array[acc] == array[acc+1] && acc+1 < js){
+                return array[acc];
+
+            }else if (acc + 2 < js){
+                acc += 2;
+                return hitungHasil(js, k1, k2, k3, k4);
+            }else{
+                return 0;
+            }
+        }else{
+            nilai++;
+            return hitungHasil(js, k1, k2, k3, k4);
+        }
+    }
+}
+```
+>Source Code LatihanMain :   
+```java
+package Minggu5.Praktikum;
+import java.util.Scanner;
+/**
+ *
+ * @author EgaRam
+ */
+public class LatihanMain {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("=======================================================");
+        System.out.println("\t\t PEMILIHAN KETUA BEM KOTA MALANG");
+        System.out.println("=======================================================");
+        Latihan pol = new Latihan();
+        Latihan[] bem = new Latihan[pol.jumlahKandidat];
+        
+        for(int i = 0; i < pol.jumlahKandidat; i++) {
+            bem[i] = new Latihan();
+            System.out.println("Nama Kandidat BEM ke- " + (i+1) + ": ");
+            bem[i].kandidat = sc.nextLine();
+        }
+        for (int i = 0; i < pol.jumlahKandidat; i++) {
+            System.out.println("Jumlah Pemilih Suara Kandidat BEM ke = " + (i+1) + ": ");
+            bem[i].vote = sc.nextInt();
+            pol.jumlahVote += bem[i].vote;
+        }
+        System.out.println("=======================================================");
+        int hasil_bem = pol.hitungHasil(pol.jumlahVote, bem[0].vote, bem[1].vote, bem[2].vote, bem[3].vote);
+        if(hasil_bem == 0) {
+            System.out.println("Kandidat memiliki mayoritas hampir sama");
+        }else{
+            System.out.println("Ketua BEM Kota Malang Adalah " + bem[hasil_bem-1].kandidat);
+        }
+    }
+}
+```
+
+>Hasil Output :
+"Images/coba14.png">
