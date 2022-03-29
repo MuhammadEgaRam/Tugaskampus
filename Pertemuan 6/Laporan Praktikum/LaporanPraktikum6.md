@@ -183,9 +183,9 @@ Untuk apakah proses tersebut?
     
 - Apakah perbedaan antara kegunaan perulangan i dan perulangan j? 
     
-**Outer : i, Berfungsi agar pengurutan terus berjalan hingga semua terurut**
+    **Outer : i, Berfungsi agar pengurutan terus berjalan hingga semua terurut**
     
-**Inner : j, Berfungsi melakukan pertukaran nilai secara terus menerus hingga urut**
+    **Inner : j, Berfungsi melakukan pertukaran nilai secara terus menerus hingga urut**
     
 - Mengapa syarat dari perulangan i adalah i<listMhs.length-1?
                                                               
