@@ -176,26 +176,22 @@ Cocokan hasilnya dengan yang terdapat pada tampilan di bawah ini
 <img src = "Images/12.png">
 Untuk apakah proses tersebut?
 
-    **program diatas digunakan untuk proses swap atau penukaran(BubbleSort), dibuat agar tidak serta merta menukar**
+**program diatas digunakan untuk proses swap atau penukaran(BubbleSort), dibuat agar tidak serta merta menukar**
 5. Perhatikan perulangan di dalam bubbleSort() di bawah ini:
 <img src = "Images/13.png">
     - Apakah perbedaan antara kegunaan perulangan i dan perulangan j? 
-      **Outer : i,
-        Berfungsi agar pengurutan terus berjalan hingga semua terurut**
-
-      **Inner : j,
-        Berfungsi melakukan pertukaran nilai secara terus menerus hingga urut**
+    **Outer : i, Berfungsi agar pengurutan terus berjalan hingga semua terurut**
+    
+    **Inner : j, Berfungsi melakukan pertukaran nilai secara terus menerus hingga urut**
+    
     - Mengapa syarat dari perulangan i adalah i<listMhs.length-1?
-
-     **Karena yang diminta untuk di outputkan di data itu berjumlah 4, jadi karena length atau panjang dari mahasiswanya 5 maka perlu dikurangi 1 agar outputnya bisa 4.**
+    **Karena yang diminta untuk di outputkan di data itu berjumlah 4, jadi karena length atau panjang dari mahasiswanya 5 maka perlu dikurangi 1 agar outputnya bisa 4.**
 
     - Mengapa syarat dari perulangan j adalah j<listMhs.length-i?
-
-     **agar batas dari perulangan j (perulangan dalam) memiliki rentang panjang sejumlah panjang array listMhs dikurangi i ketika melakukan swapping / penukaran nilai dari array listMhs agar bisa urut.**
+    **agar batas dari perulangan j (perulangan dalam) memiliki rentang panjang sejumlah panjang array listMhs dikurangi i ketika melakukan swapping / penukaran nilai dari array listMhs agar bisa urut.**
 
     - Jika banyak data di dalam listMhs adalah 50, maka berapakali perulangan i akan berlangsung? Dan ada berapa Tahap bubble sort yang ditempuh?
-
-     **perulangan i akan berlangsung sebanyak 49 kali dan begitu juga dengan tahap bubble sortnya.**
+    **perulangan i akan berlangsung sebanyak 49 kali dan begitu juga dengan tahap bubble sortnya.**
 
 ---
 ### 5.3 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Selection Sort
