@@ -177,10 +177,12 @@ Cocokan hasilnya dengan yang terdapat pada tampilan di bawah ini
 Untuk apakah proses tersebut?
 
 **program diatas digunakan untuk proses swap atau penukaran(BubbleSort), dibuat agar tidak serta merta menukar**
+    
 5. Perhatikan perulangan di dalam bubbleSort() di bawah ini:
 <img src = "Images/13.png">
+    
     - Apakah perbedaan antara kegunaan perulangan i dan perulangan j? 
-    **Outer : i, Berfungsi agar pengurutan terus berjalan hingga semua terurut**
+**Outer : i, Berfungsi agar pengurutan terus berjalan hingga semua terurut**
     
     **Inner : j, Berfungsi melakukan pertukaran nilai secara terus menerus hingga urut**
     
@@ -213,7 +215,7 @@ tampil urut menaik berdasar ipk?
 
 ---
 #### 5.3.2. Verifikasi Hasil Percobaan
-Pastikan output yang ditampilkan sudah benar seperti di bawah ini
+Pastikan output yang ditampilkan sudah benar seperti di bawah ini<p>
 <img src = "Images/16.png">
 <img src = "Images/17.png">
 
