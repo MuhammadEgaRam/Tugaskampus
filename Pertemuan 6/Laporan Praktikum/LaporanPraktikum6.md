@@ -19,7 +19,7 @@ dan insertion sort pada program
 
 ---
 ### 5.2 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Bubble Sort
-Perhatikan diagram class Mahasiswa di bawah ini! Diagram class ini yang selanjutnya akan dibuat sebagai acuan dalam membuat kode program class Mahasiswa.
+Perhatikan diagram class Mahasiswa di bawah ini! Diagram class ini yang selanjutnya akan dibuat sebagai acuan dalam membuat kode program class Mahasiswa.<p>
 <img src = "Images/1.png"><p>
 Berdasarkan class diagram di atas, kita akan membuat sebuah class Mahasiswa yang
 berfunsi untuk membuat objek mahasiswa yang akan dimasukan ke dalam sebuah array.
