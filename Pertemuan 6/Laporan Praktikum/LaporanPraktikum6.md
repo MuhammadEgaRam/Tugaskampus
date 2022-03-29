@@ -213,7 +213,7 @@ program untuk memanggil method selectionSort() tersebut!
 3. Coba jalankan kembali class Main, dan amati hasilnya! Apakah kini data mahasiswa telah
 tampil urut menaik berdasar ipk?
 
-    **Adalah benar**
+**Adalah benar**
 >Hasil Output :
 <img src = "Images/coba5.png">
 
@@ -225,8 +225,8 @@ Pastikan output yang ditampilkan sudah benar seperti di bawah ini<p>
 
 ---
 #### 5.3.3. Pertanyaan
-Di dalam method selection sort, terdapat baris program seperti di bawah ini:
-<img src = "Images/18.png">
+Di dalam method selection sort, terdapat baris program seperti di bawah ini:<p>
+<img src = "Images/18.png"><p>
 Untuk apakah proses tersebut, jelaskan!
 
 - **int idxMin = i digunakan untuk data pada index ke i;** 
@@ -246,14 +246,14 @@ Yang terakhir akan diimplementasikan Teknik sorting menggunakan Insertion Sort, 
 <img src = "Images/20.png">
 3. Coba jalankan kembali class Main, dan amati hasilnya! Apakah kini data mahasiswa telah tampil urut menaik berdasar ipk?
 
-    **Adalah benar**
+ **Adalah benar**
 >Hasil Output :
 <img src = "Images/coba1.png">
 <img src = "Images/coba6.png">
 
 ---
 #### 5.4.2 Verifikasi Hasil Percobaan
-Pastikan output yang ditampilkan sudah benar seperti di bawah ini
+Pastikan output yang ditampilkan sudah benar seperti di bawah ini<p>
 <img src = "Images/21.png">
 <img src = "Images/22.png">
 
@@ -347,3 +347,220 @@ public class Main {
 ### 5.5 Latihan Praktikum
 Sebuah yang bergerak dalam bidang penjualan tiket pesawat sedang mengembangkan backend untuk sistem pemesanan tiket, salah satu fiturnya adalah menampilkan daftar tiket yang tersedia berdasarkan pilihan filter yang diinginkan user. Daftar tiket ini harus dapat di sorting berdasarkan harga dimulai dari harga termurah ke harga tertinggi. Implementasikanlah class diagram berikut ini kedalam bahasa pemrograman java kemudian buatlah proses sorting data untuk harga tiket menggunakan algoritma bubble sort dan selection sort. 
 <img src = "Images/24.png">
+>Source code DataMahasiswaBerprestasiClass :
+```java
+package Minggu6;
+
+/**
+ *
+ * @author EgaRam
+ */
+public class DaftarMahasiswaBerprestasi {
+    Mahasiswa listMhs[] = new Mahasiswa[5];
+    int idx;
+    
+    void tambah(Mahasiswa m){
+        if(idx<listMhs.length){
+            listMhs[idx] = m; //selama id belum mencapai, maka object mhs dapat terus dimasukkan ke dalam array listMhs[]
+            idx++;
+        }else{
+            System.out.println("Data sudah penuh!");
+        }
+    }
+    void tampil(){
+        for(Mahasiswa m : listMhs){
+            m.tampil();
+            System.out.println("------------------");
+        }
+    }
+    void insertionSort(boolean duo){
+        for(int i=1; i < listMhs.length; i++){
+            Mahasiswa temp = listMhs[i];
+            int j = i;
+            if(duo){
+                while(j>0 && listMhs[j-1].ipk > temp.ipk){
+                    listMhs[j] = listMhs[j-1];
+                    j--;
+                }
+            }else{
+                while(j>0 && listMhs[j-1].ipk < temp.ipk){
+                    listMhs[j] = listMhs[j-1];
+                    j--;
+                }
+            }
+            listMhs[j] = temp;
+        }
+    }
+}
+```
+>Source code Main :
+```java
+package Minggu6;
+/**
+ *
+ * @author EgaRam
+ */
+public class Main {
+    public static void main(String[] args) {
+        
+        DaftarMahasiswaBerprestasi list = new DaftarMahasiswaBerprestasi();
+        Mahasiswa m1 = new Mahasiswa("Nusa", 2017, 25, 3);
+        Mahasiswa m2 = new Mahasiswa("Rara", 2012, 19, 4);
+        Mahasiswa m3 = new Mahasiswa("Dompu", 2018, 19, 3.5);
+        Mahasiswa m4 = new Mahasiswa("Abdul", 2017, 23, 2);
+        Mahasiswa m5 = new Mahasiswa("Ummi", 2019, 21, 3.75);
+        
+        list.tambah(m1);
+        list.tambah(m2);
+        list.tambah(m3);
+        list.tambah(m4);
+        list.tambah(m5);
+        System.out.println("Data Mahasiswa setelah sorting asc insertionSort berdasarkan ipk");
+        list.insertionSort(true);
+        list.tampil();
+        System.out.println("Data Mahasiswa setelah sorting desc insertionSort berdasarkan ipk");
+        list.insertionSort(false);
+        list.tampil();
+    }
+}
+```
+>Hasil Output :
+<img src = "Images/coba7.png">
+<img src = "Images/coba8.png">
+
+---
+### 5.5 Latihan Praktikum
+Sebuah yang bergerak dalam bidang penjualan tiket pesawat sedang mengembangkan backend untuk sistem pemesanan tiket, salah satu fiturnya adalah menampilkan daftar tiket yang tersedia berdasarkan pilihan filter yang diinginkan user. Daftar tiket ini harus dapat di sorting berdasarkan harga dimulai dari harga termurah ke harga tertinggi. Implementasikanlah class diagram berikut ini kedalam bahasa pemrograman java kemudian buatlah proses sorting data untuk harga tiket menggunakan algoritma bubble sort dan selection sort. 
+<img src = "Images/24.png">
+
+>Source Code TiketClass :
+```java
+package Minggu6.LatihanPrak;
+
+/**
+ *
+ * @author EgaRam
+ */
+public class Tiket {
+    String maskapai,asal,tujuan;
+    int harga;
+
+    Tiket(String m, int h, String a, String t){
+        maskapai = m;
+        asal = a;
+        harga = h;
+        tujuan = t;
+    }
+
+    void tampil(){
+        System.out.println("Maskapai penerbangan = "+maskapai);
+        System.out.println("Asal penerbangan = "+asal);
+        System.out.println("Tujuan penerbangan = "+tujuan);
+        System.out.println("harga ticket = "+harga);
+    }
+}
+```
+>Source Code TiketServiceClass :
+```java
+package Minggu6.LatihanPrak;
+
+/**
+ *
+ * @author EgaRam
+ */
+public class TiketService {
+    Tiket[] ticket = new Tiket[5];
+    int idx;
+
+    void tambah(Tiket t) {
+        if (idx < ticket.length) {
+            ticket[idx] = t;
+            idx++;
+        } else {
+            System.out.println("Maaf data sudah penuh :(");
+        }
+    }
+
+    void tampil() {
+        for (Tiket t : ticket) {
+            t.tampil();
+            System.out.println("-----------------------------");
+        }
+    }
+
+    void bubbleSort(){
+        for(int i=0;i<ticket.length-1;i++){
+            for(int j=1;j<ticket.length-i;j++){
+                if(ticket[j].harga>ticket[j-1].harga){
+                    Tiket tmp = ticket[j];
+                    ticket[j] = ticket[j-1];
+                    ticket[j-1] = tmp;
+                }
+            }
+        }
+    }
+
+    void selectionSort(){
+        for(int i=0;i<ticket.length-1;i++){
+            int idxMin = i;
+            for(int j=i+1;j<ticket.length;j++){
+                if(ticket[j].harga<ticket[idxMin].harga){
+                    idxMin = j;
+                }
+            }Tiket tmp = ticket[idxMin];
+            ticket[idxMin] = ticket[i];
+            ticket[i] = tmp;
+        }
+    }
+}
+```
+>Source Code TiketMain :
+```java
+package Minggu6.LatihanPrak;
+
+/**
+ *
+ * @author EgaRam
+ */
+public class TiketMain {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        TiketService data = new TiketService();
+        Tiket t1 = new Tiket("Singapore Airlines", 1830000, "Bali", "Singapore");
+        Tiket t2 = new Tiket("Scoot", 411400, "Jakarta", "Singapore");
+        Tiket t3 = new Tiket("Tiger", 170000, "Jakarta", "Semarang");
+        Tiket t4 = new Tiket("Batik Air", 3811000, "Banyuwangi", "Jakarta");
+        Tiket t5 = new Tiket("Lion", 522900, "Surabaya", "Bali");
+
+        data.tambah(t1);
+        data.tambah(t2);
+        data.tambah(t3);
+        data.tambah(t4);
+        data.tambah(t5);
+
+        System.out.println("Daftar Harga ticket sebelum di sorting = ");
+        data.tampil();
+        System.out.println("==================================");
+
+        System.out.println("Data ticket setelah di sorting berdasarkan :");
+        System.out.println("Sorting dengan metode Bubble sort :");
+        data.bubbleSort();
+        data.tampil();
+        System.out.println();
+        System.out.println("==================================");
+        System.out.println("Sorting dengan metode Selection sort :");
+        data.selectionSort();
+        data.tampil();
+        System.out.println("==================================");
+    }
+}
+```
+>Hasil Output :
+<img src = "Images/coba9.png">
+<img src = "Images/coba10.png">
+<img src = "Images/coba11.png">
