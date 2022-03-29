@@ -25,7 +25,7 @@ Berdasarkan class diagram di atas, kita akan membuat sebuah class Mahasiswa yang
 berfunsi untuk membuat objek mahasiswa yang akan dimasukan ke dalam sebuah array.
 Terdapat sebuah konstruktor berparameter dan juga fungsi tampil() untuk menampilkan
 semua attribute yang ada.
-<img src = "Images/2.png">
+<img src = "Images/2.png"><p>
 Selanjutnya class diagram di atas merupakan representasi dari sebuah class yang berfungsi untuk melakukan operasi-operasi dari objek array mahasiswa, misalkan untuk menambahkan objek mahasiswa, menampilkan semua data mahasiswa, dan juga untuk mengurutkan menggunakan Teknik bubble sort berdasarkan nilai IPK mahasiswa.
 
 ---
