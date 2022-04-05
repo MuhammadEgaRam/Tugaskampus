@@ -743,7 +743,7 @@ Cocokkan hasil compile kode program anda dengan gambar berikut ini.<p>
 1. Modifikasi percobaan searching diatas dengan ketentuan berikut ini
 - Sebelum dilakukan searching dengan binary search data harus dilakukan pengurutan dengan menggunakan algoritma sorting (pilih salah satu algoritma sorting dari pertemuan sebelumnya)
 
-> Jawaban :
+> Jawaban :<p>
 <img src = "Images/coba5.png"><p>
 <img src = "Images/coba6.png"><p>
 <img src = "Images/coba7.png"><p>
@@ -928,7 +928,7 @@ public class MahasiswaMain {
 - Pencarian dilakukan berdasarkan Nama Mahasiswa (gunakan Algoritma Sequential Search)
 - Jika terdapat nama yang sama? Bagaimana keluaran dari kode program ketika pencarian dilakukan pada nama yang sama!
 
-> Jawaban :
+> Jawaban :<p>
 <img src = "Images/coba11.png"><p>
 <img src = "Images/coba12.png"><p>
 
@@ -1081,6 +1081,9 @@ public class MahasiswaMain {
 <img src = "Images/33.png"><p>
 
 Buatlah program untuk mengurutkan array tersebut (boleh memilih metode pengurutan) selanjutnya lakukan pencarian dan mencetak isi array yang nilainya terbesar, dan mencetak ada berapa buah nilai terbesar tersebut serta berada dilokasi mana saja nilai terbesar tersebut! (menggunakan binary search)<p>
+
+> Jawaban :<p>
+>Hasil Output :<p>
 
 <img src = "Images/coba13.png"><p>
 
