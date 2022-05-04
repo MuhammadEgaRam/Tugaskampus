@@ -11,6 +11,7 @@
 <br>
 
 ### 6.1. Tujuan Praktikum
+
 Setelah melakukan materi praktikum ini, mahasiswa mampu:
 1. Menjelaskan mengenai algoritma Searching.
 2. Membuat dan mendeklarasikan struktur algoritma Searching.
