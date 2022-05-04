@@ -1494,3 +1494,7 @@ Cocokkan hasil compile kode program anda dengan gambar berikut ini.<p>
         }
     }
     ```
+    
+    ---                                   
+    ## *<center>Terimakasiih Banyak</center>*
+    ---
