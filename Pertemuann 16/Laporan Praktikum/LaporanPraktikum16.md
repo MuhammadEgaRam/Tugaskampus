@@ -1107,6 +1107,6 @@ Verifikasi hasil kompilasi kode program Anda dengan gambar berikut ini.
     ```
 
 ---
-# *=============Terimakasiih Banyak==============*
+# *===============Terimakasiih Banyak===============*
 
 ---
